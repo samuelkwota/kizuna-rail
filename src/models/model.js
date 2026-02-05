@@ -3,7 +3,7 @@ import { getDb as db } from './db-in-file.js';
 
 // ROUTE MODEL FUNCTIONS
 
-export const getAllRoutes = async () => {
+export const getAllRoutes = async () => { 
     return db().routes;
 };
 
